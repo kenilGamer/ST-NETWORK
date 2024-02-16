@@ -1,22 +1,49 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import React from 'react'
-import Button from './Button'
+import React, { useState } from 'react';
+import Button from './Button';
+// import { useGSAP } from '@gsap/react';
 
-function Navbar() {
+function Navbar({ timeline }) {
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
-    <div className='nav w-full fixed py-5 px-10 z-[9999] flex items-center justify-between'>
-        <div>
-            <img src="" alt="" />
-            <h3 className='text-2xl st text-[#49e4ff] select-none'><a href="#">ST NETWORK</a></h3>
-        </div>
-        <div className='flex items-center gap-10 font-semibold' >
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Shop</a>
-            <a href="#"><Button title={"Sign Up"} /></a>
-        </div>
+    <div className='w-full m-auto py-2 z-[999] flex max-md:items-start nav fixed justify-between items-center md:px-20'>
+      <div className='flex gap-1 items-center'>
+        <h1>
+          <img
+            src=""
+            className='object-cover'
+            alt=""
+          />
+        </h1>
+        <h1 className='text-xl font-semibold st text-[#20dbfc] select-none'>ST NETWORK</h1>
+      </div>
+
+      {/* Responsive Menu Button */}
+      <div className='flex flex-col justify-center items-center'>
+      <button className='hidden max-md:block' onClick={toggleMobileMenu}>
+        <span className='text-2xl'>&#9776;</span>
+      </button>
+
+      <div className=''>
+      <div className={`flex flex-col md:flex-row gap-4 items-center uppercase ${isMobileMenuOpen ? 'hidden' : 'block'}`}>
+        {["Home", "PACKAGES", "HELP", "CONTACT"].map((item, index) => (
+          <a className='text-sm font-semibold' href={`#${item}`} key={index}>
+            {item}
+          </a>
+        ))}
+        <a href="#"><Button title={"Sign Up"} /></a>
+      </div>
+      </div>
+      </div>
+     
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
