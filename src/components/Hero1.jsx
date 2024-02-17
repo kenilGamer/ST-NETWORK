@@ -6,8 +6,8 @@ import { FaDiscord } from "react-icons/fa";
 function Hero1() {
   return (
     <div className='w-full hero1 h-screen top-0 relative overflow-hidden '>
-        <div className='flex items-center absolute justify-center overflow-hidden w-full max-md:w-[140vw] pointer-events-none img object-cover h-full'>
-            <img src="/src/assets/wallpaperflare.com_wallpaper (2).jpg" className='w-full max-md:w-[500vw] max-md:h-[100vh]' alt="" />
+        <div className='flex items-center fixed  justify-center overflow-hidden w-full max-md:w-[140vw] pointer-events-none img object-cover h-full'>
+            <img src="/src/assets/wallpaperflare.com_wallpaper (2).jpg" className='w-full  max-md:w-[500vw] max-md:h-[100vh]' alt="" />
         </div>
         <div className='absolute w-full h-full herodiv flex flex-col items-center justify-center p-20 z-10'>
           <div className=' w-full h-full flex items-center justify-center'>

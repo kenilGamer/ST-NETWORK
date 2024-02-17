@@ -25,7 +25,7 @@ function Home() {
     },
   });
   return (
-    <div className='w-full mni-h-screen bg-teal-400 text-white'>
+    <div className='w-full mni-h-screen bg-teal-400 text-white select-none p-0'>
         <Navbar/>
         <Hero1/>
         <Hero2/>
