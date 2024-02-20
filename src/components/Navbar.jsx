@@ -21,7 +21,7 @@ function Navbar({ timeline }) {
             alt=""
           />
         </h1>
-        <h1 className='text-xl font-semibold st text-[#20dbfc] select-none'>ST NETWORK</h1>
+        <h1 className='text-xl font-semibold st text-[#4ee4ff] select-none'>ST NETWORK</h1>
       </div>
 
       {/* Responsive Menu Button */}
