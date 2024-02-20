@@ -31,7 +31,7 @@ html , body{
 }
 .nav{
     background:  #29f3f348;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px)  brightness(100%) contrast(98%);
 }
 .button{
     background: #20dbfc;
@@ -66,5 +66,7 @@ html , body{
     font-weight: 100;
 }
 .shop{
+    background: #20dbfc4f;
+    /* backdrop-filter:  blur(5px) brightness(100%) contrast(95%); */
     border-radius: 50px 0px 50px 0px ;
 }

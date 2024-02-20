@@ -9,6 +9,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useRef } from 'react';
+import Hero4 from '../components/Hero4';
 function Home() {
   const locomotiveScroll = new LocomotiveScroll({
     lenisOptions: {
@@ -71,6 +72,7 @@ function Home() {
         <Hero1/>
         <Hero2/>
         <Hero3/>
+        {/* <Hero4/>        */}
     </div>
   )
 }

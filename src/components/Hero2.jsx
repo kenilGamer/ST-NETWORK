@@ -45,7 +45,7 @@ function Hero2() {
     });
   return (
     <div  className=' w-full h-screen hero2 bg-[#032329] z-[10] relative flex flex-col  items-center'>
-      <h1  className='text-white text-8xl hero2text aabb font-bold p-20 z-10 text-center select-none'>Abot us</h1>
+      <h1  className='text-white text-8xl hero2text aabb font-bold p-20 z-10 text-center select-none'>About us</h1>
       <div ref={container} className='text-xl hero2text px-20'>
         <p>• Unique Skyblock Features: Explore custom islands, battle epic bosses, and unlock exciting new content that keeps the experience fresh.</p>
         <p>• Thriving Community: Connect with friendly players, form guilds, and       work together to achieve your goals.</p>
