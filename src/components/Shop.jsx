@@ -47,9 +47,10 @@ function Shop({ item }) {
 
            
           </div>
-          <button className='mt-4 text-center flex items-center justify-center' onClick={() => {}}>{
-            item.stock === true ?  <Button title={`Add to Cart`} /> : <Button title={`Out of Stock `} color={`bg-red-500`} disabled />
-          }</button>
+          <div className='mt-4 text-center flex items-center justify-center'>
+            {item.stock === true ?  <Button title={`Add to Cart`} color={false} /> : <Button title={`Out of Stock `} color={true} disabled />}
+          </div>
+
         </div>
       </div>
     </div>
