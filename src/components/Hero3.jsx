@@ -56,7 +56,7 @@ function Hero3() {
     <div className='w-full  relative py-2 px-10 flex flex-col min-h-screen'>
         <h1 className='st text-center aab text-6xl'>Welcome to the shop!</h1>
         
-        <div ref={container} className='flex w-full items-center overflow-hidden min-h-[85vh] justify-between gap-5 flex-wrap'>
+        <div ref={container} className='flex w-full items-center min-h-[85vh] justify-between max-md:justify-center gap-5 flex-wrap'>
           {data.map((item,index)=>(<Shop key={index} item={item}/>))}
         </div>
     </div>
