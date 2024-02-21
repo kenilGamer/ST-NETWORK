@@ -6,7 +6,7 @@ function Singup() {
   return (
     <div className='w-full h-screen flex items-center text-white justify-center'>
       <div className='object-cover'>
-      <img src="/src/assets/wallpaperflare.com_wallpaper (4).jpg" className='w-[100vw] h-[100vh] left-0 -top-0 fixed  ' alt="" />
+      <img src="/src/assets/login.jpg" className='w-[100vw] h-[100vh] left-0 -top-0 fixed  ' alt="" />
       </div>
       <div className='w-96 h-[70vh] flex items-center hero2text z-10 signup justify-center flex-col gap-10'>
         <h1 className='text-5xl font-bold st1 text-white '>Sign Up</h1>
