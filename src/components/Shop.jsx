@@ -9,14 +9,14 @@ function Shop({ item }) {
   useGSAP(() => {
     gsap.to(".shop", {
       opacity:1,
-      // y:50,
-      transform:"translatey(10%)",
-      duration: 15,
+      y: 30,
+      // transform:"translatey(10%)",
+      duration: 5,
       stagger:5,
       scrollTrigger: {
         scroll: "body",
         trigger: ".shop",
-        start: 'top 50%', // Adjust the start position as needed
+        start: 'top 10%', // Adjust the start position as needed
         end: 'top 10%',  // Adjust the end position as needed
         scrub: 5,
         // markers: true, 

@@ -31,7 +31,7 @@ function Navbar({ timeline }) {
 
       <div className=''>
       <div className={`flex flex-col md:flex-row gap-4 items-center uppercase ${isMobileMenuOpen ? 'hidden' : 'block'}`}>
-        {["Home", "PACKAGES", "HELP", "CONTACT"].map((item, index) => (
+        {["Home", "PACKAGES" , "CONTACT"].map((item, index) => (
           <a className='text-sm font-semibold' href={`#${item}`} key={index}>
             {item}
           </a>
