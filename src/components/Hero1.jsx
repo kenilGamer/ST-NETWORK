@@ -7,7 +7,7 @@ function Hero1() {
   return (
     <div className='w-full hero1 h-screen top-0 relative overflow-hidden '>
         <div className='flex items-center fixed  justify-center overflow-hidden w-full max-md:w-[140vw] pointer-events-none img object-cover h-full'>
-            <img src="/public/img/sss.jpg" className='w-full  max-xl:w-[500vw] max-xl:h-[100vh]' alt="" />
+            <img src="../../public/img/sss.jpg" className='w-full  max-xl:w-[500vw] max-xl:h-[100vh]' alt="" />
         </div>
         <div className='absolute w-full h-full herodiv flex flex-col items-center justify-center p-20 z-10'>
           <div className=' w-full h-full hore-1 flex items-center justify-center'>
