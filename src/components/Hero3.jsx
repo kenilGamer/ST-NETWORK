@@ -46,10 +46,10 @@ function Hero3() {
       });
     });
   const data =  [
-    {img: "/public/img/sss.jpg", title: "rank1", description:["♦ Up to 15 Auction House Listings and more" ," ♦ Get a free in-game item with every purchase!", "♦ Limited time offer, ends soon!" ],price: "500", stock: true},
-    {img: "/public/img/sss.jpg", title: "rank1", description:["♦ Up to 15 Auction House Listings and more" ," ♦ Get a free in-game item with every purchase!", "♦ Limited time offer, ends soon!" ],price: "500", stock: true},
-    {img: "/public/img/sss.jpg", title: "rank1", description:["♦ Up to 15 Auction House Listings and more" ," ♦ Get a free in-game item with every purchase!", "♦ Limited time offer, ends soon!" ],price: "500", stock: false},
-    {img: "/public/img/sss.jpg", title: "rank1", description:["♦ Up to 15 Auction House Listings and more" ," ♦ Get a free in-game item with every purchase!", "♦ Limited time offer, ends soon!" ],price: "500", stock: false},
+    {img: "/img/sss.jpg", title: "rank1", description:["♦ Up to 15 Auction House Listings and more" ," ♦ Get a free in-game item with every purchase!", "♦ Limited time offer, ends soon!" ],price: "500", stock: true},
+    {img: "/img/sss.jpg", title: "rank1", description:["♦ Up to 15 Auction House Listings and more" ," ♦ Get a free in-game item with every purchase!", "♦ Limited time offer, ends soon!" ],price: "500", stock: true},
+    {img: "/img/sss.jpg", title: "rank1", description:["♦ Up to 15 Auction House Listings and more" ," ♦ Get a free in-game item with every purchase!", "♦ Limited time offer, ends soon!" ],price: "500", stock: false},
+    {img: "/img/sss.jpg", title: "rank1", description:["♦ Up to 15 Auction House Listings and more" ," ♦ Get a free in-game item with every purchase!", "♦ Limited time offer, ends soon!" ],price: "500", stock: false},
 
   ]
   return (
