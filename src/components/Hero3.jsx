@@ -46,9 +46,9 @@ function Hero3() {
       });
     });
   const data =  [
+    {img: "/src/assets/sss.jpg", title: "rank1", description:["♦ Up to 15 Auction House Listings and more" ," ♦ Get a free in-game item with every purchase!", "♦ Limited time offer, ends soon!" ],price: "500", stock: true},
     {img: "src/assets/sss.jpg", title: "rank1", description:["♦ Up to 15 Auction House Listings and more" ," ♦ Get a free in-game item with every purchase!", "♦ Limited time offer, ends soon!" ],price: "500", stock: true},
-    {img: "src/assets/sss.jpg", title: "rank1", description:["♦ Up to 15 Auction House Listings and more" ," ♦ Get a free in-game item with every purchase!", "♦ Limited time offer, ends soon!" ],price: "500", stock: true},
-    {img: "src/assets/sss.jpg", title: "rank1", description:["♦ Up to 15 Auction House Listings and more" ," ♦ Get a free in-game item with every purchase!", "♦ Limited time offer, ends soon!" ],price: "500", stock: false},
+    {img: "/src/assets/sss.jpg", title: "rank1", description:["♦ Up to 15 Auction House Listings and more" ," ♦ Get a free in-game item with every purchase!", "♦ Limited time offer, ends soon!" ],price: "500", stock: false},
     {img: "src/assets/sss.jpg", title: "rank1", description:["♦ Up to 15 Auction House Listings and more" ," ♦ Get a free in-game item with every purchase!", "♦ Limited time offer, ends soon!" ],price: "500", stock: false},
 
   ]
